@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.100.3" />
+    <PackageReference Include="FastMember" Version="1.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.5" />
+    <PackageReference Include="NLog" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Pdx.Core.Common">
+      <HintPath>S:\builds\Core\Pdx.Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Pdx.Core.Data.Dapper">
+      <HintPath>S:\builds\Core\Pdx.Core.Data.Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Pdx.Core.Model">
+      <HintPath>S:\builds\Core\Pdx.Core.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Pricedex.Pim.Common">
+      <HintPath>S:\builds\Core\Pricedex.Pim.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
