@@ -70,7 +70,11 @@ namespace Adhoc.Common
         public static string ClassType { get; set; }
 
         public static string[] Fields { get; set; }
-
+        public const string UpdateRecords = "Update Records";
+        public const string CreateRecords = "Create Records";
+        public const string ColumnHeaders = "Column Headers";
+        public const string ClassType = "Class Type";
+        public const string Fields = "Fields";
         private static void RetrieveJobParameters()
         {
             IEnumerable<JobParameter> parameters = _pdxjob.GetParameters(JobId);
